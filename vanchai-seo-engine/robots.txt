@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow test and draft directories as per PRD
+Disallow: /test/
+Disallow: /draft/
+Disallow: /staging/
+
+# Sitemap index location
+Sitemap: https://discover.vanchai.in/sitemap_index.xml
