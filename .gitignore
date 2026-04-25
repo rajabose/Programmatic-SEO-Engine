@@ -1,0 +1,83 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Windsurf IDE specific (excluded per user request)
+.windsurf/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Docker
+.dockerignore
+
+# Redis
+dump.rdb
+
+# Node (if any frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+static/dist/
+*.min.js
+*.min.css
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets
+secrets/
+*.pem
+*.key
