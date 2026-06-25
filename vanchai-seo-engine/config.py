@@ -12,9 +12,12 @@ UTM_SOURCE   = "discover"
 UTM_MEDIUM   = "programmatic_seo"
 UTM_CAMPAIGN = "organic_landing"
 
-# OpenAI model — mini keeps API costs under $50 for 10k pages
-OPENAI_MODEL      = "gpt-4o-mini"
-OPENAI_MAX_TOKENS = 900   # yields ~500 words
+# Anthropic models for two-pass content generation
+# Pass 1 (draft): Haiku — fast, cheap (~$0.25/1M input tokens)
+# Pass 2 (fix):   Sonnet — higher quality, used only when draft fails pre-checks
+CLAUDE_DRAFT_MODEL    = "claude-haiku-4-5-20251001"
+CLAUDE_VALIDATE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MAX_TOKENS     = 1200  # ~700-850 words of HTML output
 
 # Output directory served by GitHub Pages
 OUTPUT_DIR   = "docs"

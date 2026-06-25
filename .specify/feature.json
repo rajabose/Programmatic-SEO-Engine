@@ -1,4 +1,17 @@
 {
-  "feature_name": "landing-page-generation",
-  "feature_directory": ".specify/features/landing-page-generation"
+  "features": [
+    {
+      "feature_name": "landing-page-generation",
+      "feature_directory": ".specify/features/landing-page-generation"
+    },
+    {
+      "feature_name": "content-generation",
+      "feature_directory": ".specify/features/content-generation"
+    },
+    {
+      "feature_name": "brand-auth-portal",
+      "feature_directory": ".specify/features/brand-auth-portal"
+    }
+  ],
+  "active_feature": "content-generation"
 }

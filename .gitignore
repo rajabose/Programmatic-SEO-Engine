@@ -42,9 +42,22 @@ ENV/
 *~
 .DS_Store
 
-# Database
+# Database — seo_engine.db is committed intentionally (audit trail)
 *.sqlite3
-*.db
+# *.db excluded from blanket ignore — only ignore test/temp DBs
+test.db
+temp.db
+
+# SEO Engine — OpenAI response cache (restored via actions/cache, not committed)
+vanchai-seo-engine/cache/openai/
+# DataForSEO keyword volume cache IS committed (avoid repeat API spend)
+!vanchai-seo-engine/cache/keyword_volumes.json
+
+# SEO Engine — internal working files
+vanchai-seo-engine/.seo-engine/cache/
+# review_queue.json and blocked.json ARE committed (audit trail)
+!vanchai-seo-engine/.seo-engine/review_queue.json
+!vanchai-seo-engine/.seo-engine/blocked.json
 
 # Logs
 *.log

@@ -20,9 +20,10 @@ from collections import defaultdict
 
 from config import CSV_FILE
 
-REQUIRED_FIELDS = ["vendorArticleName", "wixUrl"]
-WARN_FIELDS     = ["imageUrl", "price", "material", "productDetails", "amazonUrl"]
-URL_FIELDS      = ["wixUrl", "amazonUrl", "myntraUrl", "nykaaUrl", "category_url"]
+REQUIRED_FIELDS  = ["vendorArticleName"]
+PLATFORM_FIELDS  = ["wixUrl", "amazonUrl", "myntraUrl", "nykaaUrl"]  # at least one required
+WARN_FIELDS      = ["imageUrl", "price", "productDetails"]
+URL_FIELDS       = ["wixUrl", "amazonUrl", "myntraUrl", "nykaaUrl", "category_url"]
 
 
 def slugify(text: str) -> str:
@@ -65,11 +66,17 @@ def run_audit(csv_path: str) -> dict:
                     issues["missing_required"].append(f"{sku}: missing '{field}'")
 
             # ── Duplicate slug detection ───────────────────────────────────
+            # Downgraded to warning — keyword_registry.py first-registered-wins
+            # so variant products are silently skipped at generation time.
             if name:
                 slug = slugify(name)
                 if slug in slugs_seen:
-                    issues["duplicate_slug"].append(f"{sku}: slug collision on '{name[:50]}'")
+                    warnings["duplicate_slug"].append(f"{sku}: slug collision on '{name[:50]}'")
                 slugs_seen.add(slug)
+
+            # ── At least one platform URL required ────────────────────────
+            if not any(is_valid_url(row.get(f, "")) for f in PLATFORM_FIELDS):
+                issues["no_platform_url"].append(f"{sku}: no valid platform URL (wix/amazon/myntra/nykaa)")
 
             # ── URL validation ─────────────────────────────────────────────
             for field in URL_FIELDS:
@@ -145,8 +152,9 @@ def print_report(result: dict):
             ("missing_productDetails",  "Missing descriptions"),
             ("missing_amazonUrl",       "No Amazon URL"),
             ("missing_json_ld",         "Missing JSON-LD schema"),
-            ("invalid_json_ld",         "Invalid JSON-LD (unescaped quotes in names) — generate.py handles gracefully"),
+            ("invalid_json_ld",         "Invalid JSON-LD — generate.py handles gracefully"),
             ("short_description",       "Very short descriptions (<50 chars)"),
+            ("duplicate_slug",          "Duplicate product names (variants) — keyword_registry keeps first, skips rest"),
         ]
         for key, label in warn_order:
             items = warnings.get(key, [])

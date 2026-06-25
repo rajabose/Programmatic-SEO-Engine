@@ -1,0 +1,912 @@
+[
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 268,
+    "uniqueness_score": 0.24,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "24.0% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 9.0% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "268 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:16:52.128988"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 270,
+    "uniqueness_score": 0.258,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "25.8% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 10.0% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "270 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:16:52.250743"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 268,
+    "uniqueness_score": 0.24,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "24.0% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 9.0% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "268 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:16:52.357376"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 270,
+    "uniqueness_score": 0.255,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "25.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 10.0% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "270 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:16:52.466657"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 268,
+    "uniqueness_score": 0.247,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "24.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 9.0% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "268 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:16:52.576168"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 301,
+    "uniqueness_score": 0.27,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.0% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.3% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:36:52.444042"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 309,
+    "uniqueness_score": 0.287,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.3% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:36:52.550360"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 304,
+    "uniqueness_score": 0.275,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:36:52.657323"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 309,
+    "uniqueness_score": 0.307,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.3% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:36:52.765175"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 100,
+    "word_count": 304,
+    "uniqueness_score": 0.315,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/2 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:36:52.872084"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 295,
+    "uniqueness_score": 0.267,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "26.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "295 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/1 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:38:23.856702"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.285,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/1 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:38:23.967408"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.272,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.2% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/1 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:38:24.075960"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.304,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.4% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/1 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:38:24.184692"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.313,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.3% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      },
+      {
+        "gate": "platform_links",
+        "message": "0/1 platform links live",
+        "recoverable": false
+      }
+    ],
+    "queued_at": "2026-06-25T12:38:24.293659"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 295,
+    "uniqueness_score": 0.267,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "26.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "295 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:05:33.338107"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.285,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:05:33.444145"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.272,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.2% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:05:33.548288"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.304,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.4% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:05:33.653874"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.313,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.3% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:05:33.759643"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 295,
+    "uniqueness_score": 0.267,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "26.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "295 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:09:19.807106+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.285,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:09:19.925867+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.272,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.2% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:09:20.039480+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.304,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.4% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:09:20.192107+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.313,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.3% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:09:20.318616+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 295,
+    "uniqueness_score": 0.267,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "26.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "295 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:16:02.275928+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.285,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:16:02.385719+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.272,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.2% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:16:02.492864+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.304,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.4% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:16:02.601302+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.313,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.3% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:16:02.710138+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-minimalist-balcony-decor",
+    "keyword": "artificial plants for home for Minimalist Balcony Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 295,
+    "uniqueness_score": 0.267,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "26.7% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-minimalist-balcony-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 21.7% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "295 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:52:17.517212+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-boho-living-room-styling",
+    "keyword": "artificial plants for home for Boho Living Room Styling",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.285,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "28.5% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-boho-living-room-styling\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:52:17.629133+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-bedroom-wall-decor",
+    "keyword": "artificial plants for home for Bedroom Wall Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.272,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "27.2% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-bedroom-wall-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:52:17.741264+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-modern-indian-home-decor",
+    "keyword": "artificial plants for home for Modern Indian Home Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 303,
+    "uniqueness_score": 0.304,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "30.4% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-modern-indian-home-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 23.8% (max 3%)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:52:17.852609+00:00"
+  },
+  {
+    "slug": "artificial-plants-for-home-for-nursery-room-decor",
+    "keyword": "artificial plants for home for Nursery Room Decor",
+    "routing": "blocked",
+    "seo_score": 95,
+    "word_count": 298,
+    "uniqueness_score": 0.313,
+    "failures": [
+      {
+        "gate": "uniqueness",
+        "message": "31.3% overlap with \"natural-tail-cone-set-of-5-natural-dried-leaves-stick-for-home-decor-for-nursery-room-decor\" (max 20%)",
+        "recoverable": true
+      },
+      {
+        "gate": "keyword_density",
+        "message": "Keyword density 24.2% (max 3%)",
+        "recoverable": true
+      },
+      {
+        "gate": "word_count",
+        "message": "298 words (transactional, need ≥300)",
+        "recoverable": true
+      }
+    ],
+    "queued_at": "2026-06-25T13:52:17.963200+00:00"
+  }
+]

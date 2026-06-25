@@ -55,22 +55,56 @@ def main():
 
         for row_vals in rows[1:]:
             row = dict(zip(header, row_vals))
+
+            def _str(val) -> str:
+                """Coerce a cell value to string, returning '' for None/errors."""
+                if val is None:
+                    return ""
+                s = str(val).strip()
+                # Spreadsheet formula errors — treat as empty
+                return "" if s.startswith("#") else s
+
+            # CDN image domains that appear in URL columns but are NOT product pages
+            _IMAGE_HOSTS = ("m.media-amazon.com", "images-amazon.com",
+                            "static.wixstatic.com", "media.nykaa.com",
+                            "assets.myntassets.com")
+
+            def _url(val) -> str:
+                """Clean a URL cell — strip errors, non-HTTP values, and image CDN links."""
+                s = _str(val)
+                if not s.startswith("http"):
+                    return ""
+                # Reject image CDN URLs (they are not product listing pages)
+                from urllib.parse import urlparse
+                host = urlparse(s).netloc.lower()
+                if any(host == cdn or host.endswith("." + cdn) for cdn in _IMAGE_HOSTS):
+                    return ""
+                return s
+
             # Map to clean column names
+            # Fields absent in this XLSX (material, productType, category_url, json_ld)
+            # are left blank — generate.py handles missing fields gracefully.
+            # extra_features and color are concatenated into productDetails for richer content.
+            extra    = _str(row.get("extra_features"))
+            color    = _str(row.get("color"))
+            base_det = _str(row.get("productDetails"))
+            details  = " | ".join(filter(None, [base_det, f"Color: {color}" if color else "", extra]))
+
             record = {
-                "vendorArticleNumber": str(row.get("vendorArticleNumber") or row.get("vendorArticleNumber\xa0") or "").strip(),
-                "vendorArticleName":   str(row.get("vendorArticleName") or "").strip(),
-                "material":            str(row.get("material") or "").strip(),
-                "productDetails":      str(row.get("productDetails") or "").strip(),
-                "productType":         str(row.get("productType") or "").strip(),
-                "amazonUrl":           str(row.get("amazonUrl") or "").strip(),
-                "myntraUrl":           str(row.get("myntraUrl") or "").strip(),
-                "nykaaUrl":            str(row.get("nykaaUrl") or "").strip(),
-                "wixUrl":              str(row.get(" wixUrl") or row.get("wixUrl") or "").strip(),
-                "imageUrl":            str(row.get("imageUrl") or "").strip(),
-                "price":               str(row.get("price") or "").strip(),
-                "category":            str(row.get("category") or "").strip(),
-                "category_url":        str(row.get("category_url") or "").strip(),
-                "json_ld":             str(row.get("json_ld") or "").strip(),
+                "vendorArticleNumber": _str(row.get("vendorArticleNumber") or row.get("vendorArticleNumber\xa0")),
+                "vendorArticleName":   _str(row.get("vendorArticleName")),
+                "material":            _str(row.get("material")),
+                "productDetails":      details,
+                "productType":         _str(row.get("productType")),
+                "amazonUrl":           _url(row.get("amazonUrl")),
+                "myntraUrl":           _url(row.get("myntraUrl")),
+                "nykaaUrl":            _url(row.get("nykaaUrl")),
+                "wixUrl":              _url(row.get(" wixUrl") or row.get("wixUrl")),
+                "imageUrl":            _url(row.get("imageUrl")),
+                "price":               _str(row.get("price")),
+                "category":            _str(row.get("category")),
+                "category_url":        _url(row.get("category_url")),
+                "json_ld":             "",  # built from scratch by generate.py
             }
 
             name = record["vendorArticleName"]
@@ -80,8 +114,11 @@ def main():
             if not name or name.startswith("http") or "Not Found" in name or name.startswith("Key ["):
                 skipped += 1
                 continue
-            if record["json_ld"] in ("#REF!", "#N/A", ""):
-                record["json_ld"] = ""
+
+            # Require at least one valid platform URL to send traffic somewhere
+            if not any([record["wixUrl"], record["amazonUrl"], record["myntraUrl"], record["nykaaUrl"]]):
+                skipped += 1
+                continue
 
             # Deduplicate by sku+name
             key = f"{sku}|{name}"
